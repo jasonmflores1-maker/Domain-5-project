@@ -1,0 +1,22 @@
+[
+ {"movie.title":"Avatar","movie.director":"James Cameron","movie.releaseDate ":"2009"},
+{"movie.title":"Avengers: Endgame","movie.director":"Joe and Anthony Russo","movie.releaseDate":"2019"},
+{"movie.title":"Avatar: The way of Water","movie.director":"James Cameron","movie.releaseDate":"2022"},
+{"movie.title":"Titanic","movie.director":"James Cameron","movie.releaseDate":"1997"},
+{"movie.title":"Ne Zha 2","movie.director":"Jiaozi","movie.releaseDate":"2025" },
+{"movie.title":"Star Wars: The Force Awakens","movie.director":"J.J Abrams","movie.releaseDate":"2015" },
+{"movie.title":"Avengers: Infinity War","movie.director":"Joe and Anthony Russo","movie.releaseDate":"2018"},
+{"movie.title":"Spider-Man: No Way Home","movie.director":"Jon Watts","movie.releaseDate":"2021"},
+{"movie.title":"Inside Out 2","movie.director":"Kelsey Mann","movie.releaseDate":"2024"},
+{"movie.title":"Jurassic World","movie.director":"Colin Trevorrow","movie.releaseDate":"2015"},
+{"movie.title":"The Lion King","movie.director":"Jon Favreau","movie.releaseDate":"2019"},
+{"movie.title":"Zootopia 2","movie.director":"Jared Bush amd Bryon Howard","movie.releaseDate":"2025"},
+{"movie.title":"The Avengers","movie.director":"Joss Whedon","movie.releaseDate":"2012"},
+{"movie.title":"Furious 7","movie.director":"James Wan","movie.releaseDate":"2015"},
+{"movie.title":"Top Gun: Maverick","movie.director":"Joesph Kosinski","movie.releaseDate":"2022"},
+{"movie.title":"Frozen 2","movie.director":"Chris Buck and Jennifer Lee","movie.releaseDate":"2019"},
+{"movie.title":"Barbie","movie.director":"Greta Gerwig","movie.releaseDate":"2023"},
+{"movie.title":"Avengers: Age of Ultron","movie.director":"Joss Whedon","movie.releaseDate":"2015"},
+{"movie.title":"The Super Mario Bros. Movie","movie.director":"Aaron Horvath and Michael Jelenic","movie.releaseDate":"2023"},
+{"movie.title":"Black Panther","movie.director":"Ryan Coogler","movie.releaseDate":"2018"}
+]
