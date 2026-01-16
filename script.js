@@ -1,7 +1,7 @@
 console.log("js console");
 
-let data;
-grid = document.querySelector(".grid-container");
+var data;
+var grid = document.querySelector(".grid-container");
 
 var xhttp = new XMLHttpRequest();
 
@@ -10,30 +10,32 @@ if (xhttp.readyState === 4 && xhttp.status === 200) {
    data = JSON.parse(xhttp.responseText);
    console.log(data);
 
+   localStorage.setItem("data-list",JSON.stringify(data));
+
    data.forEach(function(movie) {
-let card = document.createElement("div");
-card.classList.add("card");
+    let card = document.createElement("div");
+    card.classList.add("card");
 
-let textData =
+    let textData =
 
-"<div class='movie-title'>" + movie.title + "</div>" + 
-"<span>" +
-"Director:" + movie.director + "<br>" +
-" Release Date:" + movie.releaseDate + "<br>";
- 
+    "<div class='movie-title'>" + movie.title + "</div>" + 
+    "<span>" +
+    "Director:" + movie.director + "<br>" +
+    " Release Date:" + movie.releaseDate + "<br>";
+    
 
-card.innerHTML = textData;
+    card.innerHTML = textData;
 
-if (movie.imgSrc) {
-    card.style.backgroundImage = "url(" + movie.imgSrc + ")";
-}
-   
-grid.appendChild(card);
+    if (movie.imgSrc) {
+        card.style.backgroundImage = "url(" + movie.imgSrc + ")";
+    }
+      
+    grid.appendChild(card);
   
     });
 
   }
 };
 
-xhttp.open("GET", "list.json", true);
+xhttp.open("GET", "list.JSON", true);
 xhttp.send();

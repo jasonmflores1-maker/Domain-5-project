@@ -1,21 +1,7 @@
-body {
-  background-image: linear-gradient(to bottom,#4d3800,#ab7c00,#edb41f,#ffcf52,#ffde87, #ffecb8,#fff7e3 );
-}
-
-
-
-h1 {
-text-align: center;
-font-size: 50px;
-font-family:Arial, Helvetica, sans-serif;
-color: white;
-}
-
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #fcdc79;
+  background-color:black;
   padding: 5px;
 }
 .grid-container div {
@@ -24,4 +10,17 @@ color: white;
   padding: 15px;
   font-size: 30px;
   text-align: center;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ffffff, #d3b5ff,#a76bff,#8c3dff, black);
+}
+
+
+
+h1 {
+text-align: center;
+font-size: 50px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
 }
