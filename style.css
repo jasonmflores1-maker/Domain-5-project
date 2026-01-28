@@ -24,3 +24,28 @@ font-size: 50px;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: black;
 }
+
+.navbar ul {
+    list-style-type: none;  
+    height: 60px; 
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+}
+
+.navbar li a {
+    display: block; 
+     color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    height: 60px;
+   font-size: 40px;
+   font-weight: bold;
+   margin-top: -20px;
+}
+
+
+.navbar li a:hover {
+    background-color: #d6d6d6;
+    color: black;
+}
