@@ -39,3 +39,19 @@ if (xhttp.readyState === 4 && xhttp.status === 200) {
 
 xhttp.open("GET", "list.JSON", true);
 xhttp.send();
+
+form.addEventListener("submit",function(e){
+let title = titleInput.value;
+let director = directorInput.value;
+let releaseDate = releaseDateInput.value;
+let imgSrc = imgInput.value;
+let newObj = {
+  "title": title,
+  "director": director,
+  "releaseDate": releaseDate,
+  "imgSrc": imgSrc, };
+  submitData(newObj);
+  form.reset();
+});
+
+ 

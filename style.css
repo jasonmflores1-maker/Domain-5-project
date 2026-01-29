@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(to bottom, #ffffff, #d3b5ff,#a76bff,#8c3dff, black);
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -12,9 +16,6 @@
   text-align: center;
 }
 
-body {
-  background-image: linear-gradient(to bottom, #ffffff, #d3b5ff,#a76bff,#8c3dff, black);
-}
 
 
 
@@ -48,4 +49,34 @@ color: black;
 .navbar li a:hover {
     background-color: #d6d6d6;
     color: black;
+}
+
+form {
+ font-size: 1.8em;
+font-family: Arial, Helvetica, sans-serif;
+ width: 40%;
+ color: black; 
+ margin-left: auto;
+ margin-right: auto; 
+ text-align:center;
+ padding: 10px;
+  border: solid black 5px;
+ border-width: 5px;
+ border-radius: 20px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+button {
+  background-color: #c70479;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border:  2px solid white; 
+  border-radius: 20px;
+   padding: 10px 25px;
+  font-size: 15px;
+}
+  
+  button:hover {
+    background-color: #a30072;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
