@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(to bottom, #ffffff, #d3b5ff,#a76bff,#8c3dff, black);
+  height: 210vh;
 }
 
 .grid-container {
